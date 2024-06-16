@@ -1,0 +1,116 @@
+/* login dan register */
+.bg-login {
+    margin-top: -150px;
+    background: hsla(0, 0%, 100%, 0.6) !important;
+    backdrop-filter: blur(30px);
+}
+
+.bg-image {
+    height: 350px;
+    width: 100%;
+}
+
+.container-login {
+    padding-left: 130px !important;
+    padding-right: 130px !important;
+}
+
+/* master */
+.body {
+    min-height: 100vh;
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+/* home */
+.landing {
+    height: calc(100vh - 12vh);
+    background-image: url("../storage/2.jpeg");
+    background-size: cover;
+}
+
+.landing_box {
+    height: 100%;
+}
+
+.landing_box h1 {
+    font-size: 60px;
+}
+
+.event .card-link {
+    color: white;
+    padding: 5px 3px;
+    outline: none;
+    background-color: #0a58ca;
+    border-radius: 5.5px;
+}
+
+.event .card-link:hover {
+    background-color: #093270;
+    transition: all 300ms ease-in-out;
+}
+
+.cardWrapper:hover {
+    transition: all 300ms ease-in-out;
+    transform: translateY(-20px);
+    cursor: pointer;
+}
+
+.formWrapper {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px 20px;
+    justify-content: center;
+}
+
+.formWrapper .formCard {
+    border: 1px solid gray;
+    background-color: transparent;
+    border-radius: 5.5px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.formCard:focus-within {
+    border-color: #0a58ca;
+}
+
+.formCard label {
+    padding-right: 1rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 20%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+}
+
+.formCard input {
+    width: 100%;
+    border: none;
+    outline: none;
+    color: black;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.profileWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1.15rem;
+    height: 100%;
+    width: 100%;
+}
+
+.profileWrapper .icon {
+    width: 120px;
+}
